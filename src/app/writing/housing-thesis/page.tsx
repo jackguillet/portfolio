@@ -51,19 +51,23 @@ export default function HousingThesis() {
           </p>
 
           <p>
-            Freddie Mac and Fannie Mae are federally backed banks that give out
-            very &quot;optimistic&quot; loans. The idea was simple; after the
-            housing crisis in &apos;08, the government wanted to get
-            lower/middle class people back into home ownership. So, they took
-            Mac and Mae under their wings and provided them with very clear
-            instructions: go give loans that lose money to people who can&apos;t
-            afford them. So for the next few decades, they&apos;ve been putting
-            people in homes that they can&apos;t afford at the expense of the
-            tax payer. Not only is the expense in covering the underwater loans,
-            but by increasing demand for housing, the market is now inflated.
-            So, people pay taxes which are then used to increase demand,
-            inflating the cost of housing so they can&apos;t afford it. A double
-            kick in the nuts.
+            Freddie Mac and Fannie Mae are government-sponsored enterprises that
+            buy mortgages from private lenders and package them into
+            mortgage-backed securities. They don&apos;t give out loans directly
+            — they make it possible for banks to give out more loans by
+            absorbing the risk. Fannie Mae has been around since 1938, Freddie
+            Mac since 1970. The government has been distorting the mortgage
+            market for almost 90 years. After the housing crisis in &apos;08,
+            both were placed into federal conservatorship — essentially a
+            government takeover — and have operated under explicit government
+            backing ever since. The result? Private lenders hand out optimistic
+            mortgages knowing the risk lands on the taxpayer. For decades, this
+            system has been putting people in homes they can&apos;t afford at
+            the expense of the tax payer. Not only is the expense in covering
+            the underwater loans, but by increasing demand for housing, the
+            market is now inflated. So, people pay taxes which are then used to
+            increase demand, inflating the cost of housing so they can&apos;t
+            afford it. A double kick in the nuts.
           </p>
 
           <p>
@@ -83,14 +87,20 @@ export default function HousingThesis() {
           </h2>
 
           <p>
-            They are given to people who really can&apos;t afford them, and
-            given at subsidized rates. As a result, these loans default at a
-            significantly higher rate than those from private lenders. In
-            addition, it is actually really difficult to even default on these
-            loans. You can miss payments for months and the payments are simply
-            tacked onto the end of the loan. No change in principal, no rate
-            change, no penalty, just good old fashioned tax payer supporting
-            people who took on debt that they couldn&apos;t pay down.
+            The system enables loans to people who really can&apos;t afford
+            them, at subsidized rates. Now, GSE-backed loans actually defaulted
+            at <em>lower</em> rates than private-label mortgages during the
+            &apos;08 crisis — it was Wall Street&apos;s unregulated
+            mortgage-backed securities that blew up the worst. But the
+            GSEs&apos; problem was sheer scale: they guaranteed{" "}
+            <em>trillions</em> in mortgages, so even a modest default rate
+            required a $190 billion taxpayer bailout. And when things go south,
+            the government bends over backwards to prevent defaults. During
+            COVID, borrowers could pause payments for up to 18 months with no
+            penalty — missed payments simply tacked onto the end of the loan. No
+            change in principal, no rate change, just good old fashioned tax
+            payer absorbing the risk for people who took on debt they
+            couldn&apos;t pay down.
           </p>
 
           <p>
