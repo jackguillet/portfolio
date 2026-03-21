@@ -180,10 +180,30 @@ export const socials: Social[] = [
   },
 ];
 
+export interface BlogPost {
+  title: string;
+  slug: string;
+  date: string;
+  description: string;
+  readTime: string;
+}
+
+export const blogPosts: BlogPost[] = [
+  {
+    title: "The American Housing Crisis: A Free Market Argument",
+    slug: "housing-thesis",
+    date: "2025",
+    description:
+      "Why federally subsidized mortgages, low interest rates, and restrictive zoning have created a housing market that punishes the working class — and what it would take to fix it.",
+    readTime: "10 min read",
+  },
+];
+
 export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Project", href: "#project" },
   { label: "Now", href: "#now" },
+  { label: "Writing", href: "#writing" },
   { label: "Resume", href: "#resume" },
   { label: "Contact", href: "#contact" },
 ];
