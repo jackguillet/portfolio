@@ -86,8 +86,7 @@ export default function HousingThesis() {
             <em>lower</em> rates than private-label mortgages during the
             &apos;08 crisis. It was Wall Street&apos;s unregulated
             mortgage-backed securities that blew up the worst. But the
-            GSEs&apos; problem was sheer scale: they guaranteed{" "}
-            <em>trillions</em> in mortgages, so even a modest default rate
+            GSEs&apos; problem was sheer scale: they guaranteed{" "}            <em>trillions</em> in mortgages, so even a modest default rate
             required a $190 billion taxpayer bailout. And when things go south,
             the government bends over backwards to prevent defaults. During
             COVID, borrowers could pause payments for up to 18 months with no
@@ -344,8 +343,7 @@ export default function HousingThesis() {
 
           <div className="!mt-16 rounded-lg border border-border bg-muted/50 p-6 text-center">
             <p className="font-mono text-sm text-muted-foreground italic">
-              This is an evolving thesis. Opinions are my own and do not reflect
-              those of my employer.
+              This is an evolving thesis.
             </p>
           </div>
         </div>
