@@ -197,6 +197,14 @@ export const blogPosts: BlogPost[] = [
       "Why federally subsidized mortgages, low interest rates, and restrictive zoning have created a housing market that punishes the working class — and what it would take to fix it.",
     readTime: "10 min read",
   },
+  {
+    title: "Trump Wants to IPO Freddie and Fannie",
+    slug: "trump-freddie-mac",
+    date: "2025",
+    description:
+      "Why taking Freddie Mac and Fannie Mae public with government guarantees is a world class disaster idea.",
+    readTime: "3 min read",
+  },
 ];
 
 export const navLinks = [

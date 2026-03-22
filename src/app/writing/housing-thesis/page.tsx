@@ -37,14 +37,9 @@ export default function HousingThesis() {
             retirement funds, you can expect a complete disaster down the road.
           </p>
 
-          <p>
-            Very recently, DJT announced that he intends to take Freddie Mac and
-            Fannie Mae public with explicit government guarantees. As all young
-            men with a Twitter do, they immediately sent this nonsense to their
-            very political group chat with buddies who engage in lots of lively
-            chats. Often times, there are contrasting opinions. But not today.
-            There was agreement that this was a world class disaster idea.
-          </p>
+          <h2 className="!mt-12 text-2xl font-bold text-foreground">
+            The Core Problem
+          </h2>
 
           <p>
             Freddie Mac and Fannie Mae are government-sponsored enterprises that
@@ -65,17 +60,6 @@ export default function HousingThesis() {
             housing so they can&apos;t afford it. A double kick in the nuts.
           </p>
 
-          <p>
-            I don&apos;t want to focus on Trump&apos;s proposition too much
-            (because it is so insane there is no way it actually happens), but
-            the idea is essentially that Mac/Mae would operate as publicly
-            traded companies who are still funded by the federal government to
-            provide dog shit loans. Note: if what Trump actually meant was the
-            government will guarantee all existing loans while Mae/Mac now have
-            no federal backing for new loans, that&apos;s a different story (and
-            a nightmarish story to try to decipher).
-          </p>
-
           <h2 className="!mt-12 text-2xl font-bold text-foreground">
             Why These Loans Are Garbage
           </h2>
@@ -86,7 +70,8 @@ export default function HousingThesis() {
             <em>lower</em> rates than private-label mortgages during the
             &apos;08 crisis. It was Wall Street&apos;s unregulated
             mortgage-backed securities that blew up the worst. But the
-            GSEs&apos; problem was sheer scale: they guaranteed{" "}            <em>trillions</em> in mortgages, so even a modest default rate
+            GSEs&apos; problem was sheer scale: they guaranteed{" "}
+            <em>trillions</em> in mortgages, so even a modest default rate
             required a $190 billion taxpayer bailout. And when things go south,
             the government bends over backwards to prevent defaults. During
             COVID, borrowers could pause payments for up to 18 months with no
@@ -109,28 +94,37 @@ export default function HousingThesis() {
           </p>
 
           <h2 className="!mt-12 text-2xl font-bold text-foreground">
-            Why Nothing Will Change
+            Why Housing as Retirement Is Broken
           </h2>
 
           <p>
-            First, people who own homes (a lot of people) need their home to
-            rise in value for their retirement funds. Housing equity makes up a
-            majority of the median retirement portfolio in America. Any
-            politician who threatens that is dead on arrival.
+            Why do we need housing to support retirement when there are a myriad
+            of better options? If housing is cheaper, you don&apos;t need as
+            much retirement saved up. You could be investing in the stock
+            market, buying bonds, sending kids to school, starting a business,
+            giving to charity.
           </p>
 
           <p>
-            Second, if the cost of housing came down, so would assets.
-            Let&apos;s say I get my way and good old free market capitalism
-            sweeps over the housing market <em>and</em> government actually
-            allows us to build new shit. The housing market will{" "}
-            <em>collapse</em>. I mean collapse. 30%+. Assets are correlated, and
-            other assets will plummet, which will not make the donor class very
-            happy at all. It will cause a gigantic recession. Even considering
-            this outcome, I am hoping for the correction. Every single young
-            person in this country should be hoping for it as well. Not because
-            they need extra help, or they are &quot;socialist,&quot; but because
-            they want to bring back free market capitalism to American assets.
+            The 30 year fixed rate mortgage essentially led people to purchase
+            homes they couldn&apos;t afford, increasing demand and driving up
+            prices. The 30 year fixed is almost uniquely American. Most
+            countries use adjustable rate mortgages. The product only exists
+            because of Fannie Mae and Freddie Mac, which created a secondary
+            market large enough to make it viable for lenders. Without
+            government backing, no private lender would take on 30 years of
+            interest rate risk. So the very instrument that Americans consider a
+            birthright is itself a product of the government distortion
+            I&apos;ve been describing.
+          </p>
+
+          <p>
+            These buyers add to those who <em>need</em> the housing market to go
+            up because their retirement depends on it. It creates a musical
+            chairs scenario where individuals need to get in on a home to ride
+            the inflation wave and spiking asset values, but this dream has an
+            ugly ending one way or another. So you better get off the ride
+            before it crashes.
           </p>
 
           <h2 className="!mt-12 text-2xl font-bold text-foreground">
@@ -192,37 +186,28 @@ export default function HousingThesis() {
           </p>
 
           <h2 className="!mt-12 text-2xl font-bold text-foreground">
-            Why Housing as Retirement Is Broken
+            Why Nothing Will Change
           </h2>
 
           <p>
-            Why do we need housing to support retirement when there are a myriad
-            of better options? If housing is cheaper, you don&apos;t need as
-            much retirement saved up. You could be investing in the stock
-            market, buying bonds, sending kids to school, starting a business,
-            giving to charity.
+            First, people who own homes (a lot of people) need their home to
+            rise in value for their retirement funds. Housing equity makes up a
+            majority of the median retirement portfolio in America. Any
+            politician who threatens that is dead on arrival.
           </p>
 
           <p>
-            The 30 year fixed rate mortgage essentially led people to purchase
-            homes they couldn&apos;t afford, increasing demand and driving up
-            prices. The 30 year fixed is almost uniquely American. Most
-            countries use adjustable rate mortgages. The product only exists
-            because of Fannie Mae and Freddie Mac, which created a secondary
-            market large enough to make it viable for lenders. Without
-            government backing, no private lender would take on 30 years of
-            interest rate risk. So the very instrument that Americans consider a
-            birthright is itself a product of the government distortion
-            I&apos;ve been describing.
-          </p>
-
-          <p>
-            These buyers add to those who <em>need</em> the housing market to go
-            up because their retirement depends on it. It creates a musical
-            chairs scenario where individuals need to get in on a home to ride
-            the inflation wave and spiking asset values, but this dream has an
-            ugly ending one way or another. So you better get off the ride
-            before it crashes.
+            Second, if the cost of housing came down, so would assets.
+            Let&apos;s say I get my way and good old free market capitalism
+            sweeps over the housing market <em>and</em> government actually
+            allows us to build new shit. The housing market will{" "}
+            <em>collapse</em>. I mean collapse. 30%+. Assets are correlated, and
+            other assets will plummet, which will not make the donor class very
+            happy at all. It will cause a gigantic recession. Even considering
+            this outcome, I am hoping for the correction. Every single young
+            person in this country should be hoping for it as well. Not because
+            they need extra help, or they are &quot;socialist,&quot; but because
+            they want to bring back free market capitalism to American assets.
           </p>
 
           <h2 className="!mt-12 text-2xl font-bold text-foreground">

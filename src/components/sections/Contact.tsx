@@ -16,8 +16,7 @@ export function Contact() {
       <h2 className="text-3xl font-bold tracking-tight">Let&apos;s Connect</h2>
 
       <p className="mx-auto mt-4 max-w-md text-muted-foreground">
-        I&apos;m currently looking for new opportunities. Whether you have a
-        question or just want to say hello, my inbox is open.
+        Whether you have a question or just want to say hello, my inbox is open.
       </p>
 
       <a
