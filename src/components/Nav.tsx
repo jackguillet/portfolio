@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { navLinks } from "@/lib/data";
-import { ThemeToggle } from "./ThemeToggle";
 
 export function Nav() {
   const [activeSection, setActiveSection] = useState("");
@@ -49,7 +48,7 @@ export function Nav() {
         <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4 md:px-8">
           <a
             href="#"
-            className="font-mono text-sm font-semibold tracking-tight text-foreground hover:text-accent-cyan transition-colors"
+            className="text-sm font-semibold tracking-tight text-foreground hover:opacity-60 transition-opacity"
           >
             JG
           </a>
@@ -59,20 +58,18 @@ export function Nav() {
               <a
                 key={link.href}
                 href={link.href}
-                className={`text-sm transition-colors ${
+                className={`text-sm transition-opacity ${
                   activeSection === link.href.slice(1)
-                    ? "text-accent-cyan"
+                    ? "text-foreground"
                     : "text-muted-foreground hover:text-foreground"
                 }`}
               >
                 {link.label}
               </a>
             ))}
-            <ThemeToggle />
           </div>
 
-          <div className="flex items-center gap-2 md:hidden">
-            <ThemeToggle />
+          <div className="flex items-center md:hidden">
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="p-2 text-foreground"
@@ -102,7 +99,7 @@ export function Nav() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="text-2xl font-medium text-foreground hover:text-accent-cyan transition-colors"
+                className="text-2xl font-medium text-foreground hover:opacity-60 transition-opacity"
               >
                 {link.label}
               </a>

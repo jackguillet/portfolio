@@ -5,9 +5,6 @@ export function Footer() {
         <p className="text-xs text-muted-foreground">
           &copy; {new Date().getFullYear()} Jack Guillet
         </p>
-        <p className="text-xs text-muted-foreground">
-          Built with Next.js &amp; Tailwind CSS
-        </p>
       </div>
     </footer>
   );

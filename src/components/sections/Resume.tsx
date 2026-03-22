@@ -1,6 +1,6 @@
 "use client";
 
-import { Briefcase, GraduationCap, Download } from "lucide-react";
+import { Download } from "lucide-react";
 import { experience, education, skills } from "@/lib/data";
 import { SectionWrapper } from "../SectionWrapper";
 
@@ -13,7 +13,7 @@ export function Resume() {
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-lg border border-border px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+          className="inline-flex items-center gap-2 border border-foreground px-4 py-2 text-sm font-medium text-foreground transition-opacity hover:opacity-60"
         >
           <Download className="size-4" />
           Download PDF
@@ -22,35 +22,29 @@ export function Resume() {
 
       {/* Experience */}
       <div className="mt-10">
-        <div className="flex items-center gap-2 mb-6">
-          <Briefcase className="size-5 text-accent-cyan" />
-          <h3 className="text-lg font-semibold">Experience</h3>
-        </div>
+        <h3 className="text-lg font-semibold mb-6">Experience</h3>
 
-        <div className="relative space-y-8 pl-6 before:absolute before:left-0 before:top-2 before:h-[calc(100%-16px)] before:w-px before:bg-border">
+        <div className="space-y-8 border-t border-border pt-8">
           {experience.map((job, i) => (
-            <div key={i} className="relative">
-              <div className="absolute -left-6 top-2 size-2 rounded-full bg-accent-cyan" />
-              <div>
-                <h4 className="font-semibold">{job.role}</h4>
-                <p className="text-sm text-accent-cyan">
-                  {job.company} &middot; {job.team}
-                </p>
-                <p className="text-xs text-muted-foreground">
-                  {job.period} &middot; {job.location}
-                </p>
-                <ul className="mt-3 space-y-2">
-                  {job.bullets.map((bullet, j) => (
-                    <li
-                      key={j}
-                      className="flex gap-2 text-sm text-muted-foreground leading-relaxed"
-                    >
-                      <span className="mt-1.5 size-1.5 shrink-0 rounded-full bg-muted-foreground/30" />
-                      {bullet}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <div key={i}>
+              <h4 className="font-semibold">{job.role}</h4>
+              <p className="text-sm text-muted-foreground">
+                {job.company} &middot; {job.team}
+              </p>
+              <p className="text-xs text-muted-foreground">
+                {job.period} &middot; {job.location}
+              </p>
+              <ul className="mt-3 space-y-2">
+                {job.bullets.map((bullet, j) => (
+                  <li
+                    key={j}
+                    className="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+                  >
+                    <span className="mt-2 size-1 shrink-0 rounded-full bg-foreground" />
+                    {bullet}
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
@@ -59,17 +53,17 @@ export function Resume() {
       {/* Skills */}
       <div className="mt-12">
         <h3 className="text-lg font-semibold mb-4">Skills</h3>
-        <div className="grid gap-4 sm:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-3">
           {Object.entries(skills).map(([category, items]) => (
-            <div key={category} className="rounded-lg border border-border p-4">
-              <h4 className="mb-2 font-mono text-xs font-semibold uppercase tracking-wider text-accent-cyan">
+            <div key={category}>
+              <h4 className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
                 {category}
               </h4>
               <div className="flex flex-wrap gap-1.5">
                 {items.map((skill) => (
                   <span
                     key={skill}
-                    className="rounded bg-muted px-2 py-0.5 text-xs text-muted-foreground"
+                    className="border border-border px-2 py-0.5 text-xs text-muted-foreground"
                   >
                     {skill}
                   </span>
@@ -82,10 +76,7 @@ export function Resume() {
 
       {/* Education */}
       <div className="mt-12">
-        <div className="flex items-center gap-2 mb-4">
-          <GraduationCap className="size-5 text-accent-cyan" />
-          <h3 className="text-lg font-semibold">Education</h3>
-        </div>
+        <h3 className="text-lg font-semibold mb-4">Education</h3>
         {education.map((edu, i) => (
           <div key={i}>
             <p className="font-semibold">{edu.degree}</p>

@@ -13,7 +13,7 @@ export default function TrumpFreddieMac() {
       <article className="mx-auto max-w-2xl px-6 py-24 md:px-8">
         <a
           href="/"
-          className="mb-12 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-accent-cyan"
+          className="mb-12 inline-flex items-center gap-2 text-sm text-muted-foreground transition-opacity hover:opacity-60"
         >
           <ArrowLeft className="size-4" />
           Back home
@@ -23,12 +23,12 @@ export default function TrumpFreddieMac() {
           <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
             Trump Wants to IPO Freddie and Fannie
           </h1>
-          <p className="mt-4 font-mono text-xs text-muted-foreground">
+          <p className="mt-4 text-xs text-muted-foreground">
             2025 &middot; 3 min read &middot; Jack Guillet
           </p>
         </header>
 
-        <div className="prose-custom space-y-6 text-muted-foreground leading-relaxed">
+        <div className="space-y-6 text-muted-foreground leading-relaxed">
           <p>
             Very recently, DJT announced that he intends to take Freddie Mac and
             Fannie Mae public with explicit government guarantees. As all young
@@ -75,7 +75,7 @@ export default function TrumpFreddieMac() {
             &mdash; one I get into in my{" "}
             <a
               href="/writing/housing-thesis"
-              className="text-accent-cyan underline underline-offset-4 hover:opacity-80"
+              className="text-foreground underline underline-offset-4 hover:opacity-60"
             >
               broader housing thesis
             </a>

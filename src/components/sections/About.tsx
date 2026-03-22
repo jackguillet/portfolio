@@ -20,14 +20,14 @@ export function About() {
         <div className="space-y-6 md:w-64">
           {Object.entries(skills).map(([category, items]) => (
             <div key={category}>
-              <h3 className="mb-2 font-mono text-xs font-semibold uppercase tracking-wider text-accent-cyan">
+              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
                 {category}
               </h3>
               <div className="flex flex-wrap gap-2">
                 {items.map((skill) => (
                   <span
                     key={skill}
-                    className="rounded-md bg-muted px-2.5 py-1 text-xs font-medium text-foreground"
+                    className="border border-border px-2.5 py-1 text-xs text-foreground"
                   >
                     {skill}
                   </span>

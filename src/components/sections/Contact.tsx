@@ -21,7 +21,7 @@ export function Contact() {
 
       <a
         href={`mailto:${siteConfig.email}`}
-        className="mt-8 inline-flex items-center gap-2 rounded-lg bg-accent-cyan px-6 py-3 text-sm font-medium text-black transition-opacity hover:opacity-90"
+        className="mt-8 inline-flex items-center gap-2 border border-foreground px-6 py-3 text-sm font-medium text-foreground transition-opacity hover:opacity-60"
       >
         <Mail className="size-4" />
         Say Hello
@@ -40,7 +40,7 @@ export function Contact() {
                   ? undefined
                   : "noopener noreferrer"
               }
-              className="rounded-lg p-3 text-muted-foreground transition-colors hover:bg-muted hover:text-accent-cyan"
+              className="p-3 text-muted-foreground transition-opacity hover:opacity-60"
               aria-label={social.name}
             >
               <Icon className="size-5" />
