@@ -66,17 +66,16 @@ export default function HousingThesis() {
 
           <p>
             The system enables loans to people who really can&apos;t afford
-            them, at subsidized rates. GSE-backed loans actually defaulted at{" "}
-            <em>lower</em> rates than private-label mortgages during the
-            &apos;08 crisis. It was Wall Street&apos;s unregulated
-            mortgage-backed securities that blew up the worst. But the
-            GSEs&apos; problem was sheer scale: they guaranteed{" "}
-            <em>trillions</em> in mortgages, so even a modest default rate
-            required a $190 billion taxpayer bailout. And when things go south,
-            the government bends over backwards to prevent defaults. During
-            COVID, borrowers could pause payments for up to 18 months with no
-            penalty. Missed payments were simply tacked onto the end of the
-            loan. No change in principal, no rate change, just good old
+            them, at subsidized rates. GSE-backed loans actually defaulted at
+            lower rates than private-label mortgages during the &apos;08 crisis.
+            It was Wall Street&apos;s unregulated mortgage-backed securities
+            that blew up the worst. But the GSEs&apos; problem was sheer scale:
+            they guaranteed trillions in mortgages, so even a modest default
+            rate required a $190 billion taxpayer bailout. And when things go
+            south, the government bends over backwards to prevent defaults.
+            During COVID, borrowers could pause payments for up to 18 months
+            with no penalty. Missed payments were simply tacked onto the end of
+            the loan. No change in principal, no rate change, just good old
             fashioned taxpayer absorbing the risk for people who took on debt
             they couldn&apos;t pay down.
           </p>
@@ -119,12 +118,12 @@ export default function HousingThesis() {
           </p>
 
           <p>
-            These buyers add to those who <em>need</em> the housing market to go
-            up because their retirement depends on it. It creates a musical
-            chairs scenario where individuals need to get in on a home to ride
-            the inflation wave and spiking asset values, but this dream has an
-            ugly ending one way or another. So you better get off the ride
-            before it crashes.
+            These buyers add to those who need the housing market to go up
+            because their retirement depends on it. It creates a musical chairs
+            scenario where individuals need to get in on a home to ride the
+            inflation wave and spiking asset values, but this dream has an ugly
+            ending one way or another. So you better get off the ride before it
+            crashes.
           </p>
 
           <h2 className="!mt-12 text-2xl font-bold text-foreground">
@@ -199,15 +198,15 @@ export default function HousingThesis() {
           <p>
             Second, if the cost of housing came down, so would assets.
             Let&apos;s say I get my way and good old free market capitalism
-            sweeps over the housing market <em>and</em> government actually
-            allows us to build new shit. The housing market will{" "}
-            <em>collapse</em>. I mean collapse. 30%+. Assets are correlated, and
-            other assets will plummet, which will not make the donor class very
-            happy at all. It will cause a gigantic recession. Even considering
-            this outcome, I am hoping for the correction. Every single young
-            person in this country should be hoping for it as well. Not because
-            they need extra help, or they are &quot;socialist,&quot; but because
-            they want to bring back free market capitalism to American assets.
+            sweeps over the housing market and government actually allows us to
+            build new shit. The housing market will collapse. I mean collapse.
+            30%+. Assets are correlated, and other assets will plummet, which
+            will not make the donor class very happy at all. It will cause a
+            gigantic recession. Even considering this outcome, I am hoping for
+            the correction. Every single young person in this country should be
+            hoping for it as well. Not because they need extra help, or they are
+            &quot;socialist,&quot; but because they want to bring back free
+            market capitalism to American assets.
           </p>
 
           <h2 className="!mt-12 text-2xl font-bold text-foreground">
