@@ -186,6 +186,7 @@ export interface BlogPost {
   date: string;
   description: string;
   readTime: string;
+  inProgress?: boolean;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -196,6 +197,14 @@ export const blogPosts: BlogPost[] = [
     description:
       "Why federally subsidized mortgages, low interest rates, and restrictive zoning have created a housing market that punishes the working class — and what it would take to fix it.",
     readTime: "10 min read",
+  },
+  {
+    title: "Why Clothing Is Misunderstood, and Why That Matters",
+    slug: "",
+    date: "In Progress",
+    description: "",
+    readTime: "",
+    inProgress: true,
   },
 ];
 
