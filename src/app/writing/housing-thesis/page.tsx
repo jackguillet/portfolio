@@ -89,7 +89,7 @@ export default function HousingThesis() {
             The government should instead focus on deregulating building
             permitting and zoning so that we can actually build new, dense
             housing to accommodate population growth and live in nicer places
-            for less money. But they won&apos;t. No shot. And here is why.
+            for less money. But they won&apos;t. We will come back around to why laterg.
           </p>
 
           <h2 className="!mt-12 text-2xl font-bold text-foreground">
