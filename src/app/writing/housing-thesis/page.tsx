@@ -33,7 +33,7 @@ export default function HousingThesis() {
 
         <div className="space-y-6 text-muted-foreground leading-relaxed">
           <p>
-            When a society agrees that housing should be the primary vehicle of
+            When a society pushes housing to become the primary vehicle of
             retirement funds, you can expect a complete disaster down the road.
           </p>
 
@@ -89,7 +89,8 @@ export default function HousingThesis() {
             The government should instead focus on deregulating building
             permitting and zoning so that we can actually build new, dense
             housing to accommodate population growth and live in nicer places
-            for less money. But they won&apos;t. We will come back around to why laterg.
+            for less money. But they won&apos;t, and we will come back around to
+            why.
           </p>
 
           <h2 className="!mt-12 text-2xl font-bold text-foreground">
@@ -322,14 +323,14 @@ export default function HousingThesis() {
             value because they held onto an asset that became inherently more
             valuable. The issue I take is the value gain that assets see from
             the manipulation of the dollar via low rates and quantitative
-            easing.
+            easing. It&apos;s a practice that poisons the long term prosperity
+            of a nation.
           </p>
 
-          <div className="!mt-16 border-t border-border pt-6 text-center">
-            <p className="text-sm text-muted-foreground italic">
-              This is an evolving thesis.
-            </p>
-          </div>
+          <p>
+            It&apos;s time to fix the deficit, get the government out of
+            housing, and build build build.
+          </p>
         </div>
       </article>
     </div>
